@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>
+	    Trabalho senha aceitável
+	  </title>
+	  <script type='text/javascript' src='efeitos.js'> </script>
+  </head>
+  <body>
+    <p>
+	  Regras para a formulação da senha:	  
+    </p>
+    <ul>
+      <li>
+        A senha deve ter pelo menos 8 caracteres.
+      </li>
+      <li>
+        A senha deve possuir pelo menos 3 dos 4 critérios abaixo:
+        </li>
+      <ul>
+        <li>
+        Possuir pelo menos <strong>1 caractere minúsculo</strong>
+      </li>
+        <li>
+        Possuir pelo menos <strong>1 caractere maiúsculo</strong>
+      </li>
+        <li>
+        Possuir pelo menos <strong>1 caractere numérico</strong>
+      </li>		
+      <li>
+        Possuir pelo menos <strong>1 caractere símbolo</strong>
+      </li>
+      </ul>
+    </ul>
+      <form action='' method='GET'>
+      <p> 
+        Digite uma senha qualquer: <input id='pass' type='password' name='campoSenha' />
+      </p>
+      <p>
+        <span  class='dadosSenha' id='spanSenhaInserida'> </span> <br/>
+        <span  class='dadosSenha' id='spanCaracterTotal'> </span> <br/>
+        <span  class='dadosSenha' id='spanCaracterminusculos'> </span> <br/>
+        <span  class='dadosSenha' id='spanCaractermaiusculos'> </span> <br/>
+        <span  class='dadosSenha' id='spanCaractersimbolos'> </span> <br/>
+        <span  class='dadosSenha' id='spanqtdNumeros'> </span> <br/> 
+        <span  class='dadosSenha' id='spancriteriosAprovados'> </span> <br /><br/>	
+        <input type='checkbox'    id='SenhaAceitavel'/>Senha aceitável?		
+      </p>
+    </form>
+	<h1> Integrantes do Grupo: </h1>
+	<p>Iuri de Morais </p>
+	<p> Rosman Santos </p>
+	</body>
+</html>
